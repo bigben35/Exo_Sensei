@@ -1,6 +1,6 @@
 <?php
 
-// require_once "Class/Panier.php";
+require_once "Class/Panier.php";
 require_once "Class/Pomme.php";
 require_once "Class/Cerise.php";
 require_once "Class/Poire.php";

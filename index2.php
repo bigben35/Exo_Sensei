@@ -29,6 +29,7 @@ echo "<pre>";
 $panier1 = new Panier();
 $panier1->addFruit($pomme,$poire);
 $panier2 = new Panier();
+$panier2->addFruit($pomme,$cerise,$pomme,$poire);
 print_r($panier1);
 print_r($panier2);
 
