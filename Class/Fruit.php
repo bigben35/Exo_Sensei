@@ -1,6 +1,6 @@
 <?php
 
-class Fruit{
+abstract class Fruit{
     private string $nom;
     private int $poids;
     private float $prix;
@@ -22,7 +22,7 @@ class Fruit{
     public function __toString(){  //fonction qui permet d'afficher un objet
         $affichage = "Nom : ".$this->nom."<br>";
         $affichage .= "Poids (en g) : ".$this->poids."<br>";
-        $affichage .= "Prix : ".$this->prix."<br>";
+        $affichage .= "Prix (en €): ".$this->prix."<br>";
         return $affichage;
     }
 
